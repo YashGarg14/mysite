@@ -1,31 +1,30 @@
 body{
-    background-color: #eae5e6; ;
+    background-color: #eae5e6;
+    margin: 0px;
   }
 
 .top-container{
-    background-color: black;
-    width: 200px;
-    height: 200px;
-    border: solid 10px;
-    border-color: aqua;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    padding: 20px;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
 
 }
 
 .middle-container{
     background-color: blue;
-    width: 200px;
-    height: 200px;
-    border: solid 20px;
-    margin-left: 260px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
 }
 
 .bottom-container{
-    background-color: palegoldenrod;
-    width: 200px;
-    height: 200px;
-    border: solid 10px;
-    margin-left: 500px;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
 }
