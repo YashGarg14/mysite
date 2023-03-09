@@ -1,7 +1,17 @@
 body{
     background-color: #eae5e6;
     margin: 0px;
+    text-align: center;
+    font-size: 2em;
   }
+
+h1{
+    font-size: 5.12rem;
+}
+ul{
+    list-style: none;
+}
+
 
 .top-container{
     background-color: red;
