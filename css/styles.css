@@ -1,10 +1,11 @@
-/* body{
-    background-color: #eae5e6;
-    margin: 0px;
-    text-align: center;
-    font-size: 2em;
-  }
+.nav-icon{
+    color: #FFDD83;
+}
 
+body{
+    background-color: #fff;
+  }
+/* 
 h1{
     font-size: 5.12rem;
 }
