@@ -41,7 +41,7 @@ body{
     font-weight: bold;
     color: #000000;
     font-size: 42px;
-    margin: 7rem 15rem;
+    margin: 10%;
 }
 
 .items{
@@ -51,8 +51,7 @@ body{
 }
 
 .row{
-    margin-left: 15rem;
-    margin-right: 15rem;
+    margin: 0% 10%;
 }
 
 .col{
@@ -64,6 +63,16 @@ body{
     color: #c7c7c7;
 }
 
+.inst{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
 @media (max-width: 990px){
+    .res{
+        margin: 10% 7%;
+    }
     
 }
