@@ -3,6 +3,7 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 
+/*Same for all*/
 /* navbar */
 
 .navbar{
@@ -39,11 +40,11 @@ body{
 /* Home */
 
 #mainbody{
-    padding: 10%;
+    padding: 7% 10%;
 }
 
 .img{
-    
+    padding-right: 20px;
     text-align: right;
 }
 
@@ -54,23 +55,25 @@ body{
 }
 
 .hello{
-    font-family: 'Work Sans', sans-serif;
     font-size: 100px;
     font-weight: 600;
-    padding: 5% 2%;
+    padding: 5% 0%;
 }
 
 .abt{
-    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 8px;
     font-size: 22px;
     font-weight: 600;
     padding: 0% 2%;
 }
 
 .abt-me{
-    font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     padding: 0% 20% 3% 2%;
+}
+
+.all-abt{
+    padding-left: 30px;
 }
 
 .yellow{
