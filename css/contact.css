@@ -3,39 +3,6 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-/* navbar */
-
-.navbar {
-    padding: 0 0 4.5ren;
-}
-
-.navbar-brand {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 2.3rem;
-    font-weight: bold;
-    color: #000000;
-}
-
-.nav-icon {
-    color: #eea302;
-    font-size: 1.8rem;
-}
-
-.nav-item {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 1.2rem;
-    border-right: 2px #909090 solid;
-}
-
-.navbar li:last-child {
-    border-right: none;
-}
-
-
-.nav-link {
-    padding: 0px 8px;
-}
-
 .cont {
     font-family: 'Work Sans', sans-serif;
     font-weight: bold;
@@ -44,7 +11,7 @@ body {
     margin: 5% 10% 0%;
 }
 
-.cont1{
+.cont1 {
     font-size: 18px;
     margin: 0% 10% 5%;
 }
@@ -57,7 +24,7 @@ body {
     padding-left: 0px;
 }
 
-.items{
+.items {
     font-size: 20px;
     margin-bottom: 0%;
     font-weight: bold;
@@ -72,15 +39,71 @@ body {
     border: 0 none;
 }
 
-#footer{
+#footer {
     text-align: center;
     margin: 4% 3%;
 }
-.fot-icon{
+
+.fot-icon {
     color: #000000;
     font-size: 1.5rem;
 }
 
-.foot{
+.foot {
     margin-top: 12px;
+}
+
+.rom {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.col2 {
+    padding: 0px;
+}
+
+#fname {
+    height: 40px;
+    width: 220px;
+    background-color: #e9e9e9;
+}
+
+#lname {
+    height: 40px;
+    width: 220px;
+    background-color: #e9e9e9;
+}
+
+#mail {
+    height: 40px;
+    width: 220px;
+    background-color: #e9e9e9;
+}
+
+#subject {
+    height: 40px;
+    width: 220px;
+    background-color: #e9e9e9;
+}
+
+#text {
+    height: 150px;
+    width: 280px;
+    background-color: #e9e9e9;
+}
+
+#submit{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #eea302;
+    border: 1px solid;
+    text-align: center;
+    margin: 25px 0px 0px 20px;
+    padding-top: 55px;
+    font-size: 22px;
+    font-weight: 600;
+    transition: 0.4s;
+    text-decoration: none;
+    color: #000000;
 }
