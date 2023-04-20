@@ -3,6 +3,7 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 
+/*Same for all*/
 /* navbar */
 
 .navbar{
@@ -38,12 +39,40 @@ body{
 
 /* Home */
 
+
+
+
+
 #mainbody{
-    padding: 10%;
+    padding: 7% 10% 1%;
 }
 
+
+.grid-container {
+    display: grid;
+    /* column-gap: 20px; */
+    grid-template-columns: 550px auto;
+    padding: 10px;
+    background-color: #e9e9e9;
+  }
+  
+  .grid-item1 {
+    background-color: #e9e9e9;
+    padding-left: 2em;
+    font-size: 30px;
+    text-align: left;
+  }
+  .grid-item2 {
+    background-color: #e9e9e9;
+    /* padding: 20px; */
+    font-size: 30px;
+    text-align: left;
+  }
+
+
+
 .img{
-    
+    padding: 0px 0px 0px 100px;
     text-align: right;
 }
 
@@ -54,26 +83,28 @@ body{
 }
 
 .hello{
-    font-family: 'Work Sans', sans-serif;
     font-size: 100px;
     font-weight: 600;
-    padding: 5% 2%;
+    padding: 5% 0%;
 }
 
 .abt{
-    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 8px;
     font-size: 22px;
     font-weight: 600;
     padding: 0% 2%;
 }
 
 .abt-me{
-    font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     padding: 0% 20% 3% 2%;
 }
 
-.yellow{
+.all-abt{
+    padding-left: 30px;
+}
+
+ #yellow{
     width: 150px;
     height: 150px;
     border-radius: 100%;
@@ -88,7 +119,7 @@ body{
     text-decoration: none;
     color: #000000;
 }
-
+/*
 .red{
     width: 150px;
     height: 150px;
@@ -119,6 +150,29 @@ body{
     transition: 0.4s;
     text-decoration: none;
     color: #000000;
+} */
+
+
+/* #my-div1 {
+    background-color: #f00;
+    width: 200px;
+    height: 200px;
+} */
+a.fill-div {
+    display: block;
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.resume{
+    margin: 0px;
+}
+
+.yellow{
+    width: 100px;
+    padding: 0px;
 }
 
 
@@ -134,14 +188,15 @@ body{
     background-color: #e9e9e9;
 }
 
-.hra {
-    width: 85%;
+/* .hra {
+    margin-top: 100px;
+    width: 95%;
     height: 1px;
     margin-left: auto;
     margin-right: auto;
     background-color: #6d6a6a;
     border: 0 none;
-}
+} */
 
 #footer{
     text-align: center;
@@ -175,7 +230,7 @@ body{
     }
     
     .abt-me{
-        padding: 0px 80px;
+        padding: 0px 40px;
         text-align: center;
     }
 }

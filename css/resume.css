@@ -3,38 +3,6 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-/* navbar */
-
-.navbar {
-    padding: 0 0 4.5ren;
-}
-
-.navbar-brand {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 2.3rem;
-    font-weight: bold;
-    color: #000000;
-}
-
-.nav-icon {
-    color: #eea302;
-    font-size: 1.8rem;
-}
-
-.nav-item {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 1.2rem;
-    border-right: 2px #909090 solid;
-}
-
-.navbar li:last-child {
-    border-right: none;
-}
-
-
-.nav-link {
-    padding: 0px 8px;
-}
 
 .res {
     font-family: 'Work Sans', sans-serif;
@@ -58,11 +26,10 @@ body {
     padding-left: 0px;
 }
 
-.hra {
+.hra{
     width: 80%;
+    margin: 50px auto;
     height: 1px;
-    margin-left: auto;
-    margin-right: auto;
     background-color: #6d6a6a;
     border: 0 none;
 }
