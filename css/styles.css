@@ -44,7 +44,7 @@ body{
 
 
 #mainbody{
-    padding: 7% 10% 1%;
+    padding: 10%;
 }
 
 
@@ -72,7 +72,7 @@ body{
 
 
 .img{
-    padding: 0px 0px 0px 100px;
+    
     text-align: right;
 }
 
@@ -98,6 +98,10 @@ body{
 .abt-me{
     font-size: 16px;
     padding: 0% 20% 3% 2%;
+}
+
+.all-abt{
+    padding-left: 30px;
 }
 
 .all-abt{

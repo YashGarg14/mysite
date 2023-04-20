@@ -1,106 +1,234 @@
-<!doctype html>
-<html lang="en">
+body{
+    background-color: #e9e9e9;
+    font-family: 'Work Sans', sans-serif;
+}
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Yash</title>
+/*Same for all*/
+/* navbar */
 
-  <!-- google fonts -->
+.navbar{
+    padding: 0 0 4.5ren;
+}
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&family=Work+Sans:wght@400;600&display=swap"
-    rel="stylesheet">
+.navbar-brand{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #000000;
+}
 
-  <!-- css -->
+.nav-icon{
+    color: #eea302;
+    font-size: 1.8rem;
+}
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
+.nav-item{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2rem;
+    border-right: 2px #909090 solid;
+}
 
-  <!-- fontawersome -->
+.navbar li:last-child {
+    border-right: none;
+  }
 
-  <script src="https://kit.fontawesome.com/1f6398fd47.js" crossorigin="anonymous"></script>
+
+.nav-link{
+    padding: 0px 8px;
+}
+
+/* Home */
+
+#mainbody{
+    padding: 7% 10% 1%;
+}
+
+.img{
+    padding-right: 20px;
+    text-align: right;
+}
+
+.me-img{
+    width: 90%;
+    border-radius: 100%;
+    
+}
+
+.hello{
+    font-size: 100px;
+    font-weight: 600;
+    padding: 5% 0%;
+}
+
+.abt{
+    margin-bottom: 8px;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 0% 2%;
+}
+
+.abt-me{
+    font-size: 16px;
+    padding: 0% 20% 3% 2%;
+}
+
+.all-abt{
+    padding-left: 30px;
+}
+
+ #yellow{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #eea302;
+    border: 1px solid;
+    text-align: center;
+    margin: 2% 3%;
+    padding-top: 55px;
+    font-size: 22px;
+    font-weight: 600;
+    transition: 0.4s;
+    text-decoration: none;
+    color: #000000;
+}
+/*
+.red{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #ff3b25;
+    border: 1px solid;
+    text-align: center;
+    margin: 2% 3%;
+    padding-top: 55px;
+    font-size: 22px;
+    font-weight: 600;
+    transition: 0.4s;
+    text-decoration: none;
+    color: #000000;
+}
+
+.blue{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #80d8da;
+    border: 1px solid;
+    text-align: center;
+    margin: 2% 3%;
+    padding-top: 55px;
+    font-size: 22px;
+    font-weight: 600;
+    transition: 0.4s;
+    text-decoration: none;
+    color: #000000;
+} */
 
 
-</head>
+/* #my-div1 {
+    background-color: #f00;
+    width: 200px;
+    height: 200px;
+} */
+a.fill-div {
+    display: block;
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
 
-<body>
+.resume{
+    margin: 0px;
+}
 
-  <!-- navbar -->
+.yellow{
+    width: 100px;
+    padding: 0px;
+}
 
-  <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><i class=" nav-icon fa-solid fa-circle"></i> Yash Garg</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="resume.html">Resume</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </div>
 
-  <!-- mainbody -->
+.yellow:hover{
+    background-color: #e9e9e9;
+}
+
+.red:hover{
+    background-color: #e9e9e9;
+}
+
+.blue:hover{
+    background-color: #e9e9e9;
+}
+
+.hra {
+    margin-top: 100px;
+    width: 95%;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #6d6a6a;
+    border: 0 none;
+}
+
+#footer{
+    text-align: center;
+    margin: 4% 3%;
+}
+.fot-icon{
+    color: #000000;
+    font-size: 1.5rem;
+}
 
   <section id="mainbody">
     <div class="main container-fluid">
-      <div class="grid-container">
-        <div class="grid-item1">
-          <img class="me-img" src="images/me.jpg" alt="me">
-        </div>
-        <div class="grid-item2">
-          <h1 class="hello">Hello</h1>
-          <p class="abt">A Bit About Me</p>
-          <p class="abt-me">
-            Motivated college student with a strong interest in web development. Completed several courses in HTML, CSS,
-            JavaScript, and web development frameworks, including React and Angular.
-          </p>
-        </div> 
-      </div>
-      
-      <!-- <div class="row">
+      <div class="row">
         <div class=" img col-lg-6">
           <img class="me-img" src="images/me.jpg" alt="me">
         </div>
-        <div class="all-abt col-lg-6">
+        <div class="col-lg-6">
           <h1 class="hello">Hello</h1>
           <p class="abt">A Bit About Me</p>
-          <p class="abt-me">
-            Motivated college student with a strong interest in web development. Completed several courses in HTML, CSS,
-            JavaScript, and web development frameworks, including React and Angular.
+          <p class="abt-me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ipsa maiores quia totam dolorem
+            adipisci,
+            neque possimus earum necessitatibus
           </p>
-          <div class="grid">
-            <div id="circle yg">
-              <a href="#" class="fill-div"></a>
-            </div>
-            <div id="circle red">
-              <a href="#" class="fill-div"></a>
-            </div>
-            <div id="circle blue">
-              <a href="#" class="fill-div"></a>
-            </div>
-
-          </div> -->
+          <div class="row ">
+            <a class="yellow" href="resume.html">
+              <p>Resume</p>
+            </a>
+            <a class="red" href="#">
+              <p>Projects</p>
+            </a>
+            <a class="blue" href="contact.html">
+              <p>Contact</p>
+            </a>
+          </div>
         </div>
       </div>
     </div>
-    <hr class="hra">
+  </section>
+  <hr class="hra">
+  <section id="footer">
+    <div class="container-fluid">
+      <div class="row-foot row">
+        <div class="col-lg-3">
+          <h4>Phone</h4>
+          9368959004
+        </div>
+        <div class="col-lg-3">
+          <h4>Email</h4>
+          yashgarg.co@gmail.com
+        </div>
+        <div class="col-lg-3">
+          <h4>Follow Me</h4>
+          <i class="fot-icon fa-brands fa-linkedin-in"></i>
+          <i class="fot-icon fa-brands fa-twitter"></i>
+        </div>
+        <div class="col-lg-3">
+          <h6 class="foot">© 2023 By Yash Garg.</h6>
+        </div>
+      </div>
+    </div>
   </section>
 
 
@@ -109,9 +237,24 @@
 
   </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
-</body>
-
-</html>
+@media (max-width: 990px){
+    .nav-item{
+        border-right: 0px #909090 solid;
+    }
+    .img{
+    
+        text-align: center;
+    }
+    .hello{
+        text-align: center;
+    }
+    
+    .abt{
+        text-align: center;
+    }
+    
+    .abt-me{
+        padding: 0px 40px;
+        text-align: center;
+    }
+}
