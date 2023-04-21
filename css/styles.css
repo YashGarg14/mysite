@@ -1,240 +1,88 @@
-body{
+body {
     background-color: #e9e9e9;
     font-family: 'Work Sans', sans-serif;
 }
 
-/*Same for all*/
 /* navbar */
-
-.navbar{
-    padding: 0 0 4.5ren;
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 20px;
 }
 
-.navbar-brand{
-    font-family: 'Work Sans', sans-serif;
+h2 {
+    margin: 0%;
+    padding: 3% 0% 0% 4%;
     font-size: 2.3rem;
     font-weight: bold;
-    color: #000000;
 }
 
-.nav-icon{
+.menu {
+    margin-right: 4%;
+}
+
+li {
+    list-style: none;
+    padding: 15px 5px;
+    float: right;
+    font-size: 1.3rem;
+    transition: 0.4s;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    transition: 0.3s;
+}
+
+.nav-icon {
     color: #eea302;
+    padding-right: 2px;
     font-size: 1.8rem;
 }
 
-.nav-item{
-    font-family: 'Work Sans', sans-serif;
-    font-size: 1.2rem;
-    border-right: 2px #909090 solid;
+li a:hover {
+    color: #eea302;
+    font-size: 1.4rem;
 }
 
-.navbar li:last-child {
-    border-right: none;
-  }
-
-
-.nav-link{
-    padding: 0px 8px;
-}
 
 /* Home */
-
-
-
-
-
-#mainbody{
-    padding: 10%;
+#mainbody {
+    padding: 7%;
 }
 
-
-.grid-container {
+.my-grid-container{
     display: grid;
-    /* column-gap: 20px; */
-    grid-template-columns: 550px auto;
-    padding: 10px;
-    background-color: #e9e9e9;
-  }
-  
-  .grid-item1 {
-    background-color: #e9e9e9;
-    padding-left: 2em;
-    font-size: 30px;
-    text-align: left;
-  }
-  .grid-item2 {
-    background-color: #e9e9e9;
-    /* padding: 20px; */
-    font-size: 30px;
-    text-align: left;
-  }
-
-
-
-.img{
-    
+    grid-template-columns: 1fr 1fr;
+}
+.grid-item1{
     text-align: right;
 }
-
 .me-img{
-    width: 90%;
-    border-radius: 100%;
-    
+    border-radius: 50%;
+    width: 450px;
+    padding-right: 50px;
+    filter: grayscale(100%);
+    transition: 0.4s ease;
+    cursor: pointer;
 }
-
+.me-img:hover{
+    transform: scale(1.07);
+    filter: grayscale(0%);
+}
 .hello{
-    font-size: 100px;
-    font-weight: 600;
-    padding: 5% 0%;
+    margin: 0%;
+    padding: 40px 0px 10px;
+    font-size: 5rem;
 }
-
 .abt{
-    margin-bottom: 8px;
-    font-size: 22px;
-    font-weight: 600;
-    padding: 0% 2%;
+    margin: 0%;
+    padding-top: 10px;
+    font-size: 2rem;
 }
-
 .abt-me{
-    font-size: 16px;
-    padding: 0% 20% 3% 2%;
+    margin: 0%;
+    padding-top: 10px;
 }
 
-.all-abt{
-    padding-left: 30px;
-}
-
-.all-abt{
-    padding-left: 30px;
-}
-
- #yellow{
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-    background-color: #eea302;
-    border: 1px solid;
-    text-align: center;
-    margin: 2% 3%;
-    padding-top: 55px;
-    font-size: 22px;
-    font-weight: 600;
-    transition: 0.4s;
-    text-decoration: none;
-    color: #000000;
-}
-/*
-.red{
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-    background-color: #ff3b25;
-    border: 1px solid;
-    text-align: center;
-    margin: 2% 3%;
-    padding-top: 55px;
-    font-size: 22px;
-    font-weight: 600;
-    transition: 0.4s;
-    text-decoration: none;
-    color: #000000;
-}
-
-.blue{
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-    background-color: #80d8da;
-    border: 1px solid;
-    text-align: center;
-    margin: 2% 3%;
-    padding-top: 55px;
-    font-size: 22px;
-    font-weight: 600;
-    transition: 0.4s;
-    text-decoration: none;
-    color: #000000;
-} */
-
-
-/* #my-div1 {
-    background-color: #f00;
-    width: 200px;
-    height: 200px;
-} */
-a.fill-div {
-    display: block;
-    border-radius: 100%;
-    height: 100%;
-    width: 100%;
-    text-decoration: none;
-}
-
-.resume{
-    margin: 0px;
-}
-
-.yellow{
-    width: 100px;
-    padding: 0px;
-}
-
-
-.yellow:hover{
-    background-color: #e9e9e9;
-}
-
-.red:hover{
-    background-color: #e9e9e9;
-}
-
-.blue:hover{
-    background-color: #e9e9e9;
-}
-
-/* .hra {
-    margin-top: 100px;
-    width: 95%;
-    height: 1px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #6d6a6a;
-    border: 0 none;
-} */
-
-#footer{
-    text-align: center;
-    margin: 4% 3%;
-}
-.fot-icon{
-    color: #000000;
-    font-size: 1.5rem;
-}
-
-.foot{
-    margin-top: 12px;
-}
-
-
-
-@media (max-width: 990px){
-    .nav-item{
-        border-right: 0px #909090 solid;
-    }
-    .img{
-    
-        text-align: center;
-    }
-    .hello{
-        text-align: center;
-    }
-    
-    .abt{
-        text-align: center;
-    }
-    
-    .abt-me{
-        padding: 0px 40px;
-        text-align: center;
-    }
-}
