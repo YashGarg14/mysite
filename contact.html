@@ -27,7 +27,7 @@
 <body>
 
   <!-- navbar -->
-  
+
   <header>
     <div class="navbar">
       <div class="name">
@@ -50,71 +50,77 @@
   <section id="contact">
     <h1 class="cont">Contact</h1>
     <h3 class="cont1">Looking forward to hearing from you.</h3>
-    <div class="row">
-      <div class="col col-lg-6">
-        <p class="items">Phone</p>
-        <p class="">9368959004</p>
-        <p class="items">Email</p>
-        <p class="">yashgarg.co@gmail.com</p>
-      </div>
 
-      <div class="col2 col-lg-6">
+    <div class="all-cont">
+      <div class="co1">
+        <p class="cont-det">Phone</p>
+        <p class="ph-no">9368959004</p>
+        <p class="cont-det">Email</p>
+        <p class="mail-id">yashgarg.co@gmail.com</p>
+      </div>
+      <div class="fill-form">
         <form class="form" action="get"></form>
-        <div class="rom row">
-          <div class="col2 col-lg-6">
+        <div class="row">
+          <div class="col">
             <label for="fname">First name:</label><br>
             <input type="text" id="fname" name="fname">
           </div>
-          <div class="col2 col-lg-6">
+          <div class="col">
             <label for="lname">Last name:</label><br>
             <input type="text" id="lname" name="lname"><br><br>
           </div>
         </div>
-        <div class="rom row">
-          <div class="col2 col-lg-6">
+        <div class="row">
+          <div class="col">
             <label for="mail">Email:</label><br>
             <input type="email" id="mail" name="mail">
           </div>
-          <div class="col2 col-lg-6">
+          <div class="col">
             <label for="sub">Subject:</label><br>
             <input type="text" id="subject" name="subject"><br><br>
           </div>
           </form>
         </div>
-        <div class="rom row">
-          <div class="col2 col-lg-7">
+        <div class="row">
+          <div class="col">
             <label for="mail">Message:</label><br>
-            <input type="text" id="text" name="text">
+            <textarea id="text" name="text" rows="4" cols="50">
+            </textarea>
           </div>
-          <div class="col2 col-lg-5">
-            <div id="submit"></div>
+          <div class="col">
+            <div class="fin-sub">
+              <button id="submit" type="button">Submit</button>
+            </div>
           </div>
         </div>
-
       </div>
     </div>
+
   </section>
 
   <hr class="hra">
-  <section id="footer">
-    <div class="container-fluid">
-      <div class="row-foot row">
-        <div class="col-lg-3">
-          <h4>Phone</h4>
-          9368959004
-        </div>
-        <div class="col-lg-3">
-          <h4>Email</h4>
-          yashgarg.co@gmail.com
-        </div>
-        <div class="col-lg-3">
-          <h4>Follow Me</h4>
-          <i class="fot-icon fa-brands fa-linkedin-in"></i>
-          <i class="fot-icon fa-brands fa-twitter"></i>
-        </div>
-        <div class="col-lg-3">
-          <h6 class="foot">© 2023 By Yash Garg.</h6>
-        </div>
+
+  <!-- footer -->
+
+  <section id="foot">
+    <div class="foot-grid">
+      <div>
+        <h3>Phone</h3>
+        9368959004
+      </div>
+      <div>
+        <h3>Email</h3>
+        yashgarg.co@gmail.com
+      </div>
+      <div>
+        <h3>Follow Me</h3>
+        <i class="foot-icon fa-brands fa-linkedin-in"></i><i class="foot-icon fa-brands fa-twitter"></i>
+      </div>
+      <div>
+        <p class="last">
+          © 2023 By Yash Garg
+          <br> Powered by CodeG
+        </p>
       </div>
     </div>
   </section>
