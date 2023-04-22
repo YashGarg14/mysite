@@ -9,18 +9,15 @@ body {
     grid-template-columns: 1fr 1fr;
     padding-bottom: 20px;
 }
-
 h2 {
     margin: 0%;
     padding: 3% 0% 0% 4%;
     font-size: 2.3rem;
     font-weight: bold;
 }
-
 .menu {
     margin-right: 4%;
 }
-
 li {
     list-style: none;
     padding: 15px 5px;
@@ -28,29 +25,24 @@ li {
     font-size: 1.3rem;
     transition: 0.4s;
 }
-
 a {
     text-decoration: none;
     color: #000000;
     transition: 0.3s;
 }
-
 .nav-icon {
     color: #eea302;
     padding-right: 2px;
     font-size: 1.8rem;
 }
-
 li a:hover {
     color: #eea302;
 }
 
-
-/* Home */
+/* Home page */
 #mainbody {
     padding: 7% 7% 2% ;
 }
-
 .my-grid-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -61,7 +53,7 @@ li a:hover {
 .me-img{
     border-radius: 50%;
     width: 450px;
-    padding-right: 50px;
+    padding: 0px 100px 0px;
     filter: grayscale(100%);
     transition: 0.4s ease;
     cursor: pointer;
@@ -88,7 +80,7 @@ li a:hover {
 .menu-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 0.5fr;
-    padding-top: 15px;
+    padding-top: 30px;
 }
 
 .resume, .projects, .contact{
@@ -126,15 +118,87 @@ p{
     margin: 0%;
     padding-top: 60px;
 }
-
 .hra{
     width: 95%;
     margin-top: 100px;
 }
 
+/* resume page */
+
+#resume{
+    padding: 4% 7% 2% ;
+}
+.res{
+    margin: 0%;
+    font-size: 3.2rem;
+    font-weight: bold;
+    padding: 4% 2%;
+}
+.education{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.edu{
+    padding: 20px 60px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.school{
+    padding: 40px 0px;
+}
+.tenth, .twelth{
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+}
+.time{
+    font-size: 1.1rem;
+}
+.s-name-p{
+    padding: 0%;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.classs{
+    padding: 0px 0px 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.p-abt-school{
+    padding: 2px 40px 40px 0px;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.hra-res{
+    margin: 10px 0px;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.skill{
+    padding: 20px 60px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.skill-items{
+    padding-left: 100px;
+}
+.skill-item {
+    list-style: disc;
+    float: none;
+    padding: 5px 0px;
+    font-size: 1.2rem;
+}
+
+
+/* footer */
 .foot-grid{
     display: grid;
-    grid-template-columns: 1fr 1.2fr 1fr 0.8fr;
+    grid-template-columns: 1fr 1.2fr 1fr 0.6fr;
     padding: 50px 0px 80px 100px;
 }
 
