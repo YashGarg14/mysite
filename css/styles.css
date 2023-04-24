@@ -53,6 +53,7 @@ li a:hover {
 .my-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
 }
 
 .grid-item1 {
@@ -62,7 +63,7 @@ li a:hover {
 .me-img {
     border-radius: 50%;
     width: 450px;
-    padding: 0px 100px 0px;
+    padding: 0% 10% 0% 5%;
     filter: grayscale(100%);
     transition: 0.4s ease;
     cursor: pointer;
@@ -95,6 +96,7 @@ li a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 0.5fr;
     padding-top: 30px;
+    column-gap: 10px;
 }
 
 .resume,
@@ -161,7 +163,7 @@ p {
 .education {
     display: grid;
     grid-template-columns: 1fr 1fr;
-padding-top: 80px;
+    padding-top: 80px;
 }
 
 .edu {
@@ -354,25 +356,30 @@ textarea {
     font-size: 3.2rem;
     margin: 0%;
 }
-.pronum{
+
+.pronum {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 80px 0px 50px 50px;
 }
-.pro-title{
+
+.pro-title {
     font-size: 2rem;
     padding: 2% 3%;
 }
-.abt-project{
+
+.abt-project {
     padding: 2% 3%;
     margin-right: 15%;
     line-height: 1.6;
     text-align: justify;
 }
-.pro-img1{
+
+.pro-img1 {
     width: 500px;
     height: 300px;
     padding: 20px 30px;
+    border-radius: 50px;
 }
 
 
@@ -398,4 +405,238 @@ h3 {
 .last {
     font-size: 0.9rem;
     padding-top: 15px;
+}
+
+@media screen and (max-width: 1400px) {
+    .row {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .me-img {
+        filter: grayscale(0%);
+    }
+
+    .me-img:hover {
+        transform: scale(1);
+    }
+
+    .pro {
+        font-weight: bold;
+        font-size: 2.7rem;
+        margin: 0%;
+    }
+
+    .pronum {
+        display: block;
+        padding: 40px 0px 0px 10px;
+    }
+
+    .pro-title {
+        padding: 0%;
+    }
+
+    .abt-project {
+        padding: 0%;
+        margin-right: 20%;
+    }
+
+    .pro-img1 {
+        width: 76%;
+        height: 70%;
+        padding: 2% 0% 0%;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .me-img {
+        padding: 0%;
+    }
+
+    .foot-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .my-grid-container {
+        display: block;
+    }
+
+    .grid-item1 {
+        text-align: center;
+    }
+
+    .me-img {
+        padding: 0% 10%;
+    }
+
+    .grid-item2 {
+        text-align: center;
+    }
+
+    .abt-me {
+        margin: 0px 90px;
+        padding-top: 10px;
+
+    }
+
+    .menu-grid {
+        grid-template-columns: auto auto auto;
+        column-gap: 0px;
+    }
+
+    a {
+
+        text-align: center;
+    }
+
+    .resume,
+    .projects,
+    .contact {
+        margin: auto;
+    }
+
+    .all-cont {
+        display: block;
+        padding-top: 30px;
+    }
+
+    .co1 {
+        padding-left: 20px;
+    }
+
+    .ph-no,
+    .mail-id {
+        padding: 0px 0px 10px;
+    }
+
+    .fill-form {
+        padding-left: 25px;
+        padding-top: 15px;
+    }
+
+    .foot-grid {
+        grid-template-columns: 1fr 1.2fr 1fr 0.6fr;
+        padding: 30px 0px 50px 50px;
+    }
+
+    .last {
+        padding: 0px;
+    }
+
+    .hra {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .res {
+        font-size: 2.7rem;
+        font-weight: bold;
+    }
+
+    .education {
+        display: block;
+        padding-top: 40px;
+    }
+
+    .edu {
+        padding: 0px 0px 0px 20px;
+        font-size: 1.7rem;
+    }
+
+    .school {
+        padding: 40px 0px 0px 30px;
+    }
+
+    .tenth,
+    .twelth {
+        display: block;
+    }
+
+    .time {
+        font-size: 1.3rem;
+    }
+
+    .skills {
+        display: block;
+        padding-top: 40px;
+    }
+
+    .skill {
+        padding: 0px 0px 0px 20px;
+    }
+
+    .skill-items {
+        padding-left: 40px;
+    }
+
+    .abt-project {
+        margin-right: 10%;
+    }
+
+    .foot-grid {
+        display: block;
+    }
+
+    .end-foot {
+        padding-bottom: 20px;
+    }
+    /* li{
+        display: none;
+    } */
+}
+
+@media screen and (max-width: 620px) {
+    .row {
+        display: block;
+    }
+
+    .fin-sub {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .me-img {
+        width: 70%;
+    }
+
+    .hello {
+        font-size: 4rem;
+    }
+
+    .abt {
+        font-size: 1.8em;
+    }
+
+    .abt-me {
+        margin: 0px 40px;
+        padding-top: 10px;
+    }
+
+    .menu-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-top: 30px;
+        column-gap: 0px;
+    }
+
+    .resume,
+    .projects,
+    .contact {
+        margin: auto;
+        width: 100px;
+        height: 100px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    p {
+        padding-top: 40px;
+    }
+
 }
