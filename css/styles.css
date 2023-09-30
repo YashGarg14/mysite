@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #e9e9e9;
     font-family: 'Work Sans', sans-serif;
@@ -19,9 +23,6 @@ h2 {
 
 .menu {
     margin-right: 4%;
-}
-.dropdown{
-    display: none;
 }
 
 li {
@@ -104,7 +105,7 @@ li a:hover {
 
 .resume,
 .projects,
-.contact {
+.skill {
     width: 150px;
     height: 150px;
     border-radius: 100%;
@@ -125,7 +126,7 @@ li a:hover {
     background-color: #ff3b25;
 }
 
-.contact {
+.skill {
     background-color: #80d8da;
 }
 
@@ -137,7 +138,7 @@ li a:hover {
     background-color: #e9e9e9;
 }
 
-.contact:hover {
+.skill:hover {
     background-color: #e9e9e9;
 }
 
@@ -151,13 +152,68 @@ p {
     margin-top: 100px;
 }
 
+/*  */
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #eeeeeefa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.edu {
+    margin: 0px;
+    padding: 0%;
+    color: #333;
+}
+
+.high {
+    font-size: 1.2rem;
+}
+
+.point1 {
+    margin: 0px;
+    padding: 10px 0px 0px;
+    color: #666;
+}
+
+.point2 {
+    margin: 0px;
+    padding: 10px 0px 0px;
+}
+
+.section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.section ul li::before {
+    content: '\2022';
+    color: #666;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/*  */
 /* resume page */
 
 #resume {
     padding: 4% 7% 2%;
+    /* justify-content: center;
+    align-items: center; */
 }
 
-.res {
+/* .res {
     margin: 0%;
     font-size: 3.2rem;
     font-weight: bold;
@@ -166,21 +222,22 @@ p {
 .education {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-top: 80px;
+    padding-top: 20px;
 }
 
 .edu {
-    padding: 20px 60px;
+    padding: 20px 60px 0px;
     font-size: 2rem;
     font-weight: bold;
 }
 
 .school {
-    padding: 40px 0px;
+    padding: 45px 0px 0px;
 }
 
 .tenth,
-.twelth {
+.twelth,
+.college {
     display: grid;
     grid-template-columns: 0.5fr 1.5fr;
 }
@@ -196,15 +253,25 @@ p {
 }
 
 .classs {
-    padding: 0px 0px 15px;
-    font-size: 1.2rem;
+    padding: 0px 0px 5px;
+    font-size: 1.1rem;
     font-weight: bold;
 }
 
 .p-abt-school {
-    padding: 2px 40px 40px 0px;
+    padding: 2px 40px 20px 0px;
     font-size: 1rem;
     font-weight: lighter;
+}
+
+.internship{
+    padding: 0px 60px 0px;
+    margin: 0px;
+}
+
+.int{
+    font-size: 2rem;
+    margin: 0px;
 }
 
 .hra-res {
@@ -234,120 +301,8 @@ p {
     padding: 5px 0px;
     font-size: 1.2rem;
 }
+ */
 
-/* contact page */
-
-#contact {
-    padding: 4% 7% 2%;
-}
-
-.cont {
-    font-weight: bold;
-    font-size: 3.2rem;
-    margin: 0%;
-}
-
-.cont1 {
-    font-size: 1.2rem;
-    font-weight: lighter;
-    margin: 0%;
-}
-
-.all-cont {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-top: 80px;
-}
-
-.co1 {
-    padding-left: 50px;
-}
-
-.cont-det {
-    padding: 0%;
-    font-size: 1.1rem;
-    font-weight: bold;
-}
-
-.ph-no,
-.mail-id {
-    padding: 0px 0px 30px;
-    font-weight: lighter;
-}
-
-.fill-form {
-    padding-left: 15px;
-}
-
-.row {
-    display: grid;
-    grid-template-columns: 1fr 1fr 0.5fr;
-}
-
-label {
-    font-weight: lighter;
-}
-
-#fname {
-    height: 40px;
-    width: 220px;
-    background-color: #e9e9e9;
-    border: 1px solid;
-}
-
-#lname {
-    height: 40px;
-    width: 220px;
-    background-color: #e9e9e9;
-    border: 1px solid;
-}
-
-#mail {
-    height: 40px;
-    width: 220px;
-    background-color: #e9e9e9;
-    border: 1px solid;
-}
-
-#subject {
-    height: 40px;
-    width: 220px;
-    background-color: #e9e9e9;
-    border: 1px solid;
-}
-
-#text {
-    height: 150px;
-    width: 280px;
-    background-color: #e9e9e9;
-    border: 1px solid;
-}
-
-textarea {
-    resize: none;
-}
-
-.fin-sub {
-    padding: 20px;
-}
-
-#submit {
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-    background-color: #eea302;
-    border: 1px solid;
-    text-align: center;
-    font-size: 22px;
-    font-weight: 600;
-    transition: 0.4s;
-    text-decoration: none;
-    color: #000000;
-}
-
-#submit:hover {
-    background-color: #e9e9e9;
-}
 
 /* project page*/
 #project {
@@ -536,45 +491,23 @@ h3 {
 }
 
 @media screen and (max-width: 767px) {
-    .res {
-        font-size: 2.7rem;
-        font-weight: bold;
-    }
-
-    .education {
+    .navbar {
         display: block;
-        padding-top: 40px;
+        text-align: center;
+        text-decoration: underline;
     }
 
-    .edu {
-        padding: 0px 0px 0px 20px;
-        font-size: 1.7rem;
+    .sh {
+        display: none;
     }
 
-    .school {
-        padding: 40px 0px 0px 30px;
+    .nav-icon {
+        display: none;
     }
 
-    .tenth,
-    .twelth {
-        display: block;
-    }
-
-    .time {
-        font-size: 1.3rem;
-    }
-
-    .skills {
-        display: block;
-        padding-top: 40px;
-    }
-
-    .skill {
-        padding: 0px 0px 0px 20px;
-    }
-
-    .skill-items {
-        padding-left: 40px;
+    #resume {
+        padding: 20px;
+        margin: 0px;
     }
 
     .abt-project {
@@ -588,56 +521,6 @@ h3 {
     .end-foot {
         padding-bottom: 20px;
     }
-    /* li{
-        display: none;
-    } */
-}
-
-@media screen and (max-width: 767px) {
-.sh{
-    display: none;
-}
-.dropdown{
-    display: inline;
-    float: right;
-    overflow: hidden;
-  }
-  
-  .dropdown .dropbtn {
-    font-size: 1.8rem;    
-    border: none;
-    outline: none;
-    color: #000000;
-    padding: 10px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  .dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
 }
 
 @media screen and (max-width: 620px) {
@@ -651,12 +534,6 @@ h3 {
 }
 
 @media screen and (max-width: 580px) {
-    h2 {
-        font-size: 1.7rem;
-    }
-    .dropdown .dropbtn {
-        font-size: 1.6rem;
-    }
     .me-img {
         width: 70%;
     }
@@ -683,7 +560,7 @@ h3 {
 
     .resume,
     .projects,
-    .contact {
+    .skill {
         margin: auto;
         width: 100px;
         height: 100px;
@@ -694,4 +571,4 @@ h3 {
     p {
         padding-top: 40px;
     }
-}}
+}

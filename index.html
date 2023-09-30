@@ -1,104 +1,208 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Yash</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yash Garg</title>
 
   <!-- google fonts -->
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&family=Work+Sans:wght@400;600&display=swap"
-    rel="stylesheet">
+    rel="stylesheet" />
 
   <!-- css -->
 
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css" />
 
   <!-- fontawersome -->
 
   <script src="https://kit.fontawesome.com/1f6398fd47.js" crossorigin="anonymous"></script>
 
+  <!--Favicon-->
+
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
 </head>
 
 <body>
-
   <!-- navbar -->
 
   <header>
-
-    <div class="toggle-button">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-
     <div class="navbar">
       <div class="name">
-        <h2><a href="index.html"><i class=" nav-icon fa-solid fa-circle"></i> Yash Garg</a></h2>
+        <h2>
+          <a href="index.html"><i class="nav-icon fa-solid fa-circle"></i> Yash Garg</a>
+        </h2>
       </div>
       <div class="menu">
         <ul class="sh">
-          <li><a class="nav-link" href="contact.html">Contact</a></li>
+          <li>
+            <a class="nav-link" href="#" onclick="scrollToSection('skills')">Skills</a>
+          </li>
           <li>|</li>
-          <li><a class="nav-link" href="project.html">Projects</a></li>
+          <li>
+            <a class="nav-link" href="#" onclick="scrollToSection('project')">Projects</a>
+          </li>
           <li>|</li>
-          <li><a class="nav-link" href="resume.html">Resume</a></li>
+          <li>
+            <a class="nav-link" href="#" onclick="scrollToSection('resume')">Resume</a>
+          </li>
         </ul>
-        <div class="dropdown">
-          <button class="dropbtn">Menu
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="contact.html">Contact</a>
-            <a href="project.html">Projects</a>
-            <a href="resume.html">Resume</a>
-          </div>
-        </div>
       </div>
     </div>
   </header>
 
-  <!-- mainbody -->
+  <!-- home -->
 
   <section id="mainbody">
     <div class="my-grid-container">
       <div class="grid-item1">
-        <img class="me-img" src="images/me.jpg" alt="me">
+        <img class="me-img" src="images/me.jpg" alt="me" />
       </div>
       <div class="grid-item2">
         <h1 class="hello">Hello</h1>
         <p class="abt">A Bit About Me</p>
         <p class="abt-me">
-          Motivated college student with a strong interest in web development. Completed several courses in HTML, CSS,
-          JavaScript, and web development frameworks, including React and Angular.
+          Motivated college student with a strong interest in web development.
+          Completed several courses in HTML, CSS, JavaScript, and web
+          development frameworks, including React.
         </p>
         <div class="menu-grid">
-          <a href="resume.html">
+          <a href="#" onclick="scrollToSection('resume')">
             <div class="resume">
               <p>Resume</p>
             </div>
           </a>
-          <a href="project.html">
+          <a href="#" onclick="scrollToSection('project')">
             <div class="projects">
               <p>Projects</p>
             </div>
           </a>
-          <a href="contact.html">
-            <div class="contact">
-              <p>Contact</p>
+          <a onclick="scrollToSection('skills')">
+            <div class="skill">
+              <p>Skills</p>
             </div>
           </a>
         </div>
-
       </div>
     </div>
   </section>
 
-  <hr class="hra">
+  <!-- resume -->
+
+  <section id="resume">
+    <div class="container">
+
+      <div class="section">
+        <h2 class="edu">Education</h2>
+        <p class="point1"><strong class="high">B.Tech</strong>, KIET Group Of Institutions,<br><strong>Year:</strong>
+          2021-Present
+          <strong>CGPA:</strong>87.9
+        </p>
+        <p class="point1"><strong class="high">Higher Secondary School</strong>, Doon Valley Public
+          Schoool,<br><strong>Year:</strong> 2021
+          <strong>Percentage:</strong>94.6
+        </p>
+        <p class="point1"><strong class="high">Secondary school</strong>, Delhi Public School,<br><strong>Year:</strong>
+          2019
+          <strong>Percentage:</strong>95.6
+        </p>
+      </div>
+
+      <div class="section">
+        <h2 class="edu">Internship Experience</h2>
+        <p class="point2"><strong>Front-End Developer Intern</strong><br><strong class="high">IBM & Edunet
+            Foundation</strong> 06/2023
+          - 07/2023</p>
+        <p class="point2">Completed a 6-week IBM SkillsBuild internship in Emerging Technologies for Front End
+          Development, showcasing strong proficiency in web development principles and practices.
+          <br><br>Developed engaging and intuitive web interfaces using HTML, CSS, JavaScript, and modern
+          front-end frameworks during the internship, applying theoretical knowledge to practical
+          projects.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2 class="edu">Organizations</h2>
+        <p class="point2"><strong>KTS - Kinesis Technical Society </strong>(05/2023 - Present)<br> Club Member - Web
+          Development
+          domain</p>
+        <p class="point2"><strong>Impecabbles </strong>(08/2021 - 02/2022)<br> Club Member - Photography Domain
+          domain</p>
+      </div>
+
+      <div class="section">
+        <h2 class="edu">Achievements</h2>
+        <p class="point2"><strong>LUMOS Hackathon - IIIT Delhi</strong><br>
+          Achieved success by working on Health Suraksha in a team, solving problems creatively, and presenting
+          innovative solutions under tight deadlines</p>
+        <p class="point2"><strong>Launchpad Hackathon - Galgotias University</strong><br>
+          Worked on a creative business idea.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- mainbody project -->
+
+  <section id="project">
+    <h1 class="pro">Projects</h1>
+    <div class="pronum">
+      <div class="title">
+        <h2 class="pro-title">Health Suraksha</h2>
+        <p class="abt-project">
+          • An integrated healthcare platform revolutionizing access to medical services. Offering real-time doctor
+          consultations, medicine delivery, ambulance booking, 3D first aid tutorials, and online lab testing. <br>
+          • Consult Doctors: Instant access to medical advice through video calls or chat. <br>
+          • Ambulance Booking:
+          Rapid
+          ambulance booking with location
+          tracking for emergencies. <br>• First Aid Tutorials: Interactive 3D tutorials for basic first aid and
+          emergency
+          response. <br>
+        </p>
+      </div>
+      <div class="pro-img">
+        <img class="pro-img1" src="images/healthsuraksha.png" alt="health" />
+      </div>
+    </div>
+    <div class="pronum">
+      <div class="title">
+        <h2 class="pro-title">My Portfolio</h2>
+        <p class="abt-project">
+          • The Personal Portfolio project is a web application that serves as a platform to showcase my skills,
+          projects, and experiences as a web developer. <br>
+          • Built using HTML and CSS, the portfolio embodies a minimalist
+          yet visually appealing design that reflects my professionalism and attention to detail.
+        </p>
+      </div>
+      <div class="pro-img">
+        <img class="pro-img1" src="images/portfolio-my.png" alt="portfolio" />
+      </div>
+    </div>
+    <div class="pronum">
+      <div class="title">
+        <h2 class="pro-title">Disney+ Hotstar clone</h2>
+        <p class="abt-project">
+          • The Disney+ Hotstar Clone project is a web application that replicates the core features and functionalities
+          of the Disney+ Hotstar platform, providing an immersive streaming experience for users. <br>• Leveraging the
+          power
+          of React, this project aims to offer a seamless and visually appealing interface for streaming videos and
+          exploring a variety of entertainment content.
+        </p>
+      </div>
+      <div class="pro-img">
+        <img class="pro-img1" src="images/disney.png" alt="tinder" />
+      </div>
+    </div>
+  </section>
+
+  <hr class="hra" />
 
   <!-- footer -->
 
@@ -106,7 +210,7 @@
     <div class="foot-grid">
       <div class="end-foot">
         <h3>Phone</h3>
-        9368959004
+        +919368959004
       </div>
       <div class="end-foot">
         <h3>Email</h3>
@@ -121,11 +225,55 @@
       <div class="end-foot">
         <p class="last">
           © 2023 By Yash Garg
-          <br> Powered by CodeG
+          <br />
         </p>
       </div>
     </div>
   </section>
+
+  <!--Formbutton-->
+  <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+  <script>
+    window.formbutton =
+      window.formbutton ||
+      function () {
+        (formbutton.q = formbutton.q || []).push(arguments);
+      };
+    formbutton("create", {
+      action: "https://formspree.io/f/xpzgopqr",
+      title: "Contact Me",
+      fields: [
+        {
+          type: "email",
+          label: "Email:",
+          name: "email",
+          required: true,
+          placeholder: "your@email.com",
+        },
+        {
+          type: "textarea",
+          label: "Message:",
+          name: "message",
+          placeholder: "What's on your mind?",
+        },
+        { type: "submit" },
+      ],
+      styles: {
+        title: {
+          backgroundColor: "gray",
+        },
+        button: {
+          backgroundColor: "gray",
+        },
+      },
+    });
+  </script>
+  <script>
+    function scrollToSection(sectionId) {
+      const section = document.getElementById(sectionId);
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  </script>
 </body>
 
 </html>
