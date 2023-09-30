@@ -152,7 +152,6 @@ p {
     margin-top: 100px;
 }
 
-/*  */
 .container {
     width: 100%;
     max-width: 800px;
@@ -204,105 +203,31 @@ p {
     margin-left: -1em;
 }
 
-/*  */
+
 /* resume page */
 
 #resume {
     padding: 4% 7% 2%;
-    /* justify-content: center;
-    align-items: center; */
 }
 
-/* .res {
-    margin: 0%;
-    font-size: 3.2rem;
-    font-weight: bold;
+.resum {
+    text-align: center;
 }
 
-.education {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-top: 20px;
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #eea302;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
-.edu {
-    padding: 20px 60px 0px;
-    font-size: 2rem;
-    font-weight: bold;
+.download-button:hover {
+    background-color: #e9e9e9;
 }
-
-.school {
-    padding: 45px 0px 0px;
-}
-
-.tenth,
-.twelth,
-.college {
-    display: grid;
-    grid-template-columns: 0.5fr 1.5fr;
-}
-
-.time {
-    font-size: 1.1rem;
-}
-
-.s-name-p {
-    padding: 0%;
-    font-size: 1.3rem;
-    font-weight: bold;
-}
-
-.classs {
-    padding: 0px 0px 5px;
-    font-size: 1.1rem;
-    font-weight: bold;
-}
-
-.p-abt-school {
-    padding: 2px 40px 20px 0px;
-    font-size: 1rem;
-    font-weight: lighter;
-}
-
-.internship{
-    padding: 0px 60px 0px;
-    margin: 0px;
-}
-
-.int{
-    font-size: 2rem;
-    margin: 0px;
-}
-
-.hra-res {
-    margin: 10px 0px;
-}
-
-.skills {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
-
-.skill {
-    padding: 20px 60px;
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.skill-items {
-    padding-left: 100px;
-}
-
-.skill-item {
-    list-style: disc;
-    float: none;
-    padding: 5px 0px;
-    font-size: 1.2rem;
-}
- */
-
 
 /* project page*/
 #project {
